@@ -1,7 +1,7 @@
 # keytool-agent
 Java agent to workaround keytool bugs
 
-To workaround "Parse Generalized time, invalid format" issue use `-J-Xbootclasspath/p:keytool-agent-1.0.jar -J-javaagent:keytool-agent-1.0.jar` arguments:
+To workaround "**Parse Generalized time, invalid format**" issue use `-J-Xbootclasspath/p:keytool-agent-1.0.jar -J-javaagent:keytool-agent-1.0.jar` arguments:
 
 ```sh
 > keytool -list -v -keystore test.keystore
